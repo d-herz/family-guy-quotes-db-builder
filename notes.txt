@@ -1,4 +1,0 @@
-For use with family guy quotes client
-
-started 8-23-22
-Setting up files and folders, won't have much time to get crazy today but can at least push it to github I don't think that will be a problem?
