@@ -46,7 +46,7 @@ app.post('/quotes', (req,res) => {
   console.log('Post HEARDDD')
   db.collection('quotes').insertOne({ author: req.body.author, quote: req.body.quote})
   .then( result => {
-    console.log(results)
+    console.log(result)
     res.redirect('/')
   })
   .catch( err => console.error(err))
