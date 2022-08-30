@@ -42,6 +42,9 @@ app.get('/api', (req,res) => {
     console.log(results)
     res.json(results)
   })
+  .catch(err =>{
+    console.log(err)
+  })
 })
 
 //CREATE
